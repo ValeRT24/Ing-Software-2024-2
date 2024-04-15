@@ -1,0 +1,98 @@
+/* components/Rentas.css */
+
+.rentas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .rentas-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .rentas-formulario {
+    width: 60%; /* Ajusta el ancho según tus necesidades */
+    margin-bottom: 20px;
+  }
+  
+  .rentas-formulario label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .rentas-formulario input,
+  .rentas-formulario select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .rentas-formulario button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .rentas-tabla {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rentas-tabla th,
+  .rentas-tabla td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .rentas-tabla th {
+    background-color: #f2f2f2;
+  }
+  
+  .rentas-acciones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .rentas-acciones button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .rentas-acciones button:hover {
+    background-color: #0056b3;
+  }
+  
+  .rentas-acciones button.eliminar {
+    background-color: #dc3545;
+  }
+  
+  .rentas-acciones button.eliminar:hover {
+    background-color: #c82333;
+  }
+  
+  .rentas-acciones button.devolver {
+    background-color: #28a745; /* Color verde para el botón de devolver */
+  }
+  
+  .rentas-acciones button.devolver:hover {
+    background-color: #218838; /* Color verde más oscuro para el hover */
+  }
+  
